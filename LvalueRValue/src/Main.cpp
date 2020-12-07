@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 void PrintName(const std::string& name) 
 {
