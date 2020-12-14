@@ -45,7 +45,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Move", "Move\Move.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array - Template", "Array - Template\Array - Template.vcxproj", "{14F6462D-2300-42AA-B171-197FF668AC14}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "--FromWebNoob", "FromWebNoob\FromWebNoob.vcxproj", "{13DE6F50-6DA2-4A38-8D9A-77DF5C34036E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FromWebNoob", "FromWebNoob\FromWebNoob.vcxproj", "{13DE6F50-6DA2-4A38-8D9A-77DF5C34036E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorDynamicArray", "VectorDynamicArray\VectorDynamicArray.vcxproj", "{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,14 @@ Global
 		{13DE6F50-6DA2-4A38-8D9A-77DF5C34036E}.Release|x64.Build.0 = Release|x64
 		{13DE6F50-6DA2-4A38-8D9A-77DF5C34036E}.Release|x86.ActiveCfg = Release|Win32
 		{13DE6F50-6DA2-4A38-8D9A-77DF5C34036E}.Release|x86.Build.0 = Release|Win32
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Debug|x64.ActiveCfg = Debug|x64
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Debug|x64.Build.0 = Debug|x64
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Debug|x86.ActiveCfg = Debug|Win32
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Debug|x86.Build.0 = Debug|Win32
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Release|x64.ActiveCfg = Release|x64
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Release|x64.Build.0 = Release|x64
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Release|x86.ActiveCfg = Release|Win32
+		{078B24B7-54A3-4B74-9AA6-C7AF4F6AD325}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
