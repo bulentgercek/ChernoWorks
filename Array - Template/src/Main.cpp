@@ -11,6 +11,7 @@ public:
 	T& operator[](size_t index) { return m_Data[index]; }
 	const T& operator[](size_t index) const { return m_Data[index]; }
 
+	T* operator*() { return *m_Data; }
 	T* Data() { return m_Data; }
 	const T* Data() const { return m_Data; }
 
@@ -21,7 +22,7 @@ private:
 
 int main()
 {
-#define __intExample
+#define __stringExample
 #if defined(__intExample)
 	Array<int, 5> data = {};
 	
@@ -44,7 +45,9 @@ int main()
 		std::cout << data[i] << std::endl;
 	}
 
-	int* dataptr = data.Data();
+	auto* dataptr = data.Data();
+	
+	*data.Data();
 
 	std::cin.get();
 }
